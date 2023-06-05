@@ -1,0 +1,35 @@
+body{
+    background: black;
+    margin: 0;
+}
+
+h1{
+    color: hotpink;
+    font-size: 100%;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    color: white;
+}
+
+.Informacion{
+    margin-left: 5%;
+}
+
+.Contenido{
+    /*margin-right: 80%;*/
+}
+
+.Contenedor{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.input{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}

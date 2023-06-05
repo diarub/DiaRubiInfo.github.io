@@ -1,0 +1,88 @@
+.mapa{
+    
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    box-shadow: 0 0 10px white;
+    padding: 5% 5% 5% 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+form h2{
+    font-size: 20px;
+    color: cyan;
+    margin: 0;
+}
+
+form p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.input{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input{
+    color: mediumblue;
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px transparent;
+    outline: none;
+    /*font-size: 16px;*/
+}
+
+textarea{
+    color: black;
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 0 20px transparent;
+    outline: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    padding: 10px;
+    background: linear-gradient(90deg,
+    blue 25%,
+    blue 100%);
+    box-shadow: 0 0 20px transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.caja{
+    
+    justify-content: center;
+    align-items:center;
+}
+
+
+.caja2 h2{
+    /*font-size: 30px;*/
+    color: blue;
+    margin: 0;
+    text-align: center;
+}
+
